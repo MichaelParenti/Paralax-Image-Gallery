@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <style>
+        body {
+            background: linear-gradient(to right, rgb(148, 20, 52), rgb(0,0, 78));
+            min-height: 500vh;
+        }
+        #lorem{
+            display: flex;
+            align-content: center;
+            justify-content: space-around;
+            flex-direction:column;
+            padding: 20px;
+            width: 30vw;
+            height: 60vh;
+            font-family:Arial, Helvetica, sans-serif;
+            background: #0b024d;
+            box-shadow: 0 0 10px 10px black;
+            position: fixed;
+            left: 10vw;
+            top: 20vh;
+            color: white;
+            text-align: center;
+        }
+        #gallery{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction:column;
+            padding: 20vh 10vw;
+            width: 30vw;
+            height: 60vh;
+            position: absolute;
+            right: 5vw;
+            top: 190%;
+            gap: 20vh;
+        }
+        .border{
+            box-shadow: 0 0 5px 5px rgb(148, 20, 52);
+            padding: 0px;
+        }
+        img{
+            width: 20vw;
+            height: auto;
+        }
+        a, a:active, a:hover{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div id="lorem">
+        <h1>Lorem, ipsum.</h1>
+        <br>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati accusantium sint velit, at, numquam cumque minima facere delectus sit quo eius impedit nesciunt id tenetur perferendis commodi est reiciendis enim!</p>
+        <a href="https://github.com/M-Coder-3920">Created By: Michael Parenti</a>
+    </div>
+
+    <div id="gallery">
+
+        <div class="border">
+            <img src="lock-wallpaper.jpg" alt="">
+        </div>
+
+        <div class="border">
+            <img src="lock-wallpaper.jpg" alt="">
+        </div>
+
+        <div class="border">
+            <img src="lock-wallpaper.jpg" alt="">
+        </div>
+
+        <div class="border">
+            <img src="lock-wallpaper.jpg" alt="">
+        </div>
+
+        <div class="border">
+            <img src="lock-wallpaper.jpg" alt="">
+        </div>
+
+    </div>
+    
+</body>
+</html>
